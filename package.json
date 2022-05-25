@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.html",
+  "type": "module",
   "scripts": {
     "start": "vite",
     "build": "vite build"
@@ -11,6 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2",
     "vite": "^2.9.9"
   }
 }
