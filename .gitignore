@@ -1,4 +1,15 @@
+# dependecies
 node_modules
+
+# machine related
 .DS_Store
+.idea
+.vscode
+
+# log files
 *.log
 npm-debug.*
+
+# build files
+dist
+
